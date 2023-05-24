@@ -21,13 +21,14 @@
 #focaccia
 /* image of the focaccia */
 {
-width: 650px;
+width: 500px;
 border-radius: 8px;
 box-shadow: 10px 8px 5px -5px rgba(0,0,0,0.13);
 }
 
    
 #credit{   
+    text-align: center;
     color: rgb(167, 166, 166);
 }
 .container{
@@ -50,11 +51,19 @@ box-shadow: 10px 8px 5px -5px rgba(0,0,0,0.13);
     color: rgb(209, 116, 9);
 
 }
-#fresh{
+.fresh{
+    /* class for the links */
     color: rgb(0, 150, 137);
 }
-#ingredients{
+.ingredients{
+    /* class for the ingredient element and for method */
     margin-top: 35px;
     padding-bottom: 10px;
     border-bottom:solid rgb(184, 252, 252) 1px ;
+}
+
+.cups{
+    /* class of all the <li> elements in the page */
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
