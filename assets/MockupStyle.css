@@ -5,3 +5,21 @@
     display: flex;
     justify-content: center;
 }
+#part 
+/* head paragraph  */
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(253,251,241,255) ;
+    height: 40px;
+    padding-top: 20px;
+    border-top: solid rgb(247, 191, 89) 1px; 
+    color:rgba(0,77,76,255) ;
+    
+}
+#Title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
