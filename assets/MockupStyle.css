@@ -1,3 +1,4 @@
+
 #image{
     width:200px ;
 }
@@ -5,7 +6,7 @@
     display: flex;
     justify-content: center;
 }
-#part 
+#part
 /* head paragraph  */
 {
     display: flex;
@@ -17,17 +18,6 @@
     color:rgba(0,77,76,255) ;
     
 }
-#Title{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-
-}
-#description{
-    display: flex;
-    justify-content: center;
-    
-}
 #focaccia
 /* image of the focaccia */
 {
@@ -35,12 +25,36 @@ width: 650px;
 border-radius: 8px;
 box-shadow: 10px 8px 5px -5px rgba(0,0,0,0.13);
 }
-#food{
-    display: flex;
-    justify-content: center;
+
+   
+#credit{   
+    color: rgb(167, 166, 166);
 }
-#credit{
-    display: flex;
-    justify-content: center;
-    color: rgb(133, 133, 133);
+.container{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    
+}
+
+.title{
+    text-align: center;
+}
+
+#featured{
+    border-left: solid rgb(247, 191, 89) 2px;
+    padding-left: 15px;
+    color: rgb(209, 116, 9);
+
+}
+#fresh{
+    color: rgb(0, 150, 137);
+}
+#ingredients{
+    margin-top: 35px;
+    padding-bottom: 10px;
+    border-bottom:solid rgb(184, 252, 252) 1px ;
 }
